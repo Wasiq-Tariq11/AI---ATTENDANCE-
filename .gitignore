@@ -1,0 +1,21 @@
+# secrets
+.env
+*.env.local
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+# node
+node_modules/
+dist/
+# biometric / personal data - never commit
+*.csv
+*.xlsx
+face_data/
+student_photos/
+# os/editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.db
